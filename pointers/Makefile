@@ -1,5 +1,5 @@
 # Generic Makefile
-NAME = string_formatting
+NAME = pointers
 CFLAGS = -g -std=c11 -I.
 OBJDIR = obj
 SRCS = $(wildcard *.c)

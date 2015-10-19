@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <Type Name="_ivector">
+    <DisplayString>size={size} data={data,[size]}</DisplayString>
+    <Expand>
+      <Item Name="[size]" ExcludeView="simple">size</Item>
+      <Item Name="[capacity]" ExcludeView="simple">capacity</Item>
+      <ArrayItems>
+        <Size>size</Size>
+        <ValuePointer>data</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+  
+  
+</AutoVisualizer>

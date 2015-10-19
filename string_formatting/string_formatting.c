@@ -25,11 +25,23 @@ void format_to_string()
 
 	// convenient string formatting - better, easier and more efficient than
 	// string concatenation
-	int stringLength = snprintf(stringBuffer, sizeof stringBuffer,
+	int formattedLength = snprintf(stringBuffer, sizeof stringBuffer,
 		"Formatted %s with values x=%d y=%d",  "string", 10, 20);
 
-	printf("Formatted string length = %d\n", stringLength);
+	printf("-------------------------------\n");
+	printf("Formatted string length = %d\n", formattedLength);
 	printf("Result: \"%s\"\n", stringBuffer);
+
+
+	char buffer[28]; // destination string buffer (obviously too small)
+	int len = snprintf(buffer, sizeof buffer,
+		"Formatted %s with values x=%d y=%d", "string", 10, 20);
+
+	// if len >= sizeof buffer, then end of string is truncated
+	int actualLength = (len >= sizeof buffer) ? strlen(buffer): len;
+	printf("Formatted string length = %d\n", len);
+	printf("Actual    string length = %d\n", actualLength);
+	printf("Result: \"%s\"\n", buffer);
 }
 
 
