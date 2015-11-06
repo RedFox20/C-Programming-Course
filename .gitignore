@@ -5,3 +5,5 @@ Debug
 *.d
 *.o
 *.exe
+*.iobj
+Release
