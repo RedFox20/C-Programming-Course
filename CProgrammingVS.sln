@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fileio", "fileio\fileio.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rand_duplicates", "rand_duplicates\rand_duplicates.vcxproj", "{42F64FDA-BC9E-427A-9FBA-D8C5D2E736FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vernam_cypher", "vernam_cypher\vernam_cypher.vcxproj", "{6A4DA882-2EC5-418E-B9D7-585C0E89099A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{42F64FDA-BC9E-427A-9FBA-D8C5D2E736FE}.Release|x64.Build.0 = Release|x64
 		{42F64FDA-BC9E-427A-9FBA-D8C5D2E736FE}.Release|x86.ActiveCfg = Release|Win32
 		{42F64FDA-BC9E-427A-9FBA-D8C5D2E736FE}.Release|x86.Build.0 = Release|Win32
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Debug|x64.ActiveCfg = Debug|x64
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Debug|x64.Build.0 = Debug|x64
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Debug|x86.Build.0 = Debug|Win32
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Release|x64.ActiveCfg = Release|x64
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Release|x64.Build.0 = Release|x64
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Release|x86.ActiveCfg = Release|Win32
+		{6A4DA882-2EC5-418E-B9D7-585C0E89099A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
